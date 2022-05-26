@@ -11,7 +11,7 @@ def read_file(fiename):
 	return products
 
  #使用者輸入
- def user_input(products):
+ def user_input(products) :
  	while True:
  		name = input('請輸入商品名稱:')
  	if name == 'q':
